@@ -1,0 +1,11 @@
+python3 -m venv venv
+. venv/bin/activate
+
+
+pip install Flask torch torchvision nltk 
+
+
+python 
+import nltk 
+nltk.download('punkt') 
+
